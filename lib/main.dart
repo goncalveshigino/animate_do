@@ -1,5 +1,6 @@
 
 import 'package:animate_to_app/src/pages/navegacion_page.dart';
+import 'package:animate_to_app/src/pages/pagina1.dart';
 import 'package:flutter/material.dart';
  
 void main() => runApp(MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: PavigacionPage()
+      home: Pagina1Page()
     );
   }
 }
